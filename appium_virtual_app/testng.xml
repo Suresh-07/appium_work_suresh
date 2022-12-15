@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="appium_virtual_app.ORANGE_HRM"/>
+      <class name="appium_virtual_app.GENERAL_STORE"/>
+      <class name="appium_virtual_app.All_in_one"/>
+      <class name="appium_virtual_app.demo_1"/>
+      <class name="appium_virtual_app.Natives_Poco"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
